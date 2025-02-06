@@ -1,7 +1,7 @@
 # Image_Classification
 # CIFAR-10 Image Classification Using CNN in PyTorch
 
-This repository contains a Convolutional Neural Network (CNN) implementation for classifying images from the CIFAR-10 dataset. CIFAR-10 is a well-known benchmark dataset in the field of machine learning, consisting of 60,000 32x32 color images across 10 classes. Each class represents common objects encountered in everyday life, covering a diverse range of visual concepts.
+This repository contains a  ResNet (Residual Network) implementation for classifying images from the CIFAR-10 dataset. CIFAR-10 is a well-known benchmark dataset in the field of machine learning, consisting of 60,000 32x32 color images across 10 classes. Each class represents common objects encountered in everyday life, covering a diverse range of visual concepts.
 
 ## Dataset
 
@@ -23,9 +23,6 @@ The dataset is split into:
 
 Each class has an equal number of images in both the training and test sets.
 
-## Why CNN?
-
-CNNs have proven to be highly effective in image classification tasks due to their ability to automatically learn hierarchical features from raw pixel data. By leveraging convolutional layers, pooling layers, and fully connected layers, CNNs can capture intricate patterns and spatial relationships within images, making them well-suited for tasks like CIFAR-10 classification.
 
 
 
